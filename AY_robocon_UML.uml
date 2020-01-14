@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_OaNboC4rEeqtRvOLLevC2g" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ObXSMC4rEeqtRvOLLevC2g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_czOkEC41EeqtRvOLLevC2g" name="block_bingo">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZtY_EC42EeqtRvOLLevC2g" name="Class2_Factory" node="_ZtlMUC42EeqtRvOLLevC2g _ZwLNUC42EeqtRvOLLevC2g _ZwgkgC42EeqtRvOLLevC2g">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZtZmIC42EeqtRvOLLevC2g" name="result" type="_czOkEC41EeqtRvOLLevC2g" direction="return"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_ZwogUC42EeqtRvOLLevC2g" name="createObjectAction to callConstructor" target="_ZwhyoC42EeqtRvOLLevC2g" source="_ZwQs4C42EeqtRvOLLevC2g">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_Zw17sC42EeqtRvOLLevC2g" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_Zw2iwC42EeqtRvOLLevC2g" value="1"/>
+        </edge>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_ZwpHYC42EeqtRvOLLevC2g" name="callConstructor to returnParamNode" target="_ZtlMUC42EeqtRvOLLevC2g" source="_ZwiZsS42EeqtRvOLLevC2g">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_Zw2iwS42EeqtRvOLLevC2g" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_Zw2iwi42EeqtRvOLLevC2g" value="1"/>
+        </edge>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_ZtlMUC42EeqtRvOLLevC2g" name="resultParameterNode" incoming="_ZwpHYC42EeqtRvOLLevC2g" type="_czOkEC41EeqtRvOLLevC2g" parameter="_ZtZmIC42EeqtRvOLLevC2g">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ZtlzYC42EeqtRvOLLevC2g" value="1"/>
+        </node>
+        <node xmi:type="uml:CreateObjectAction" xmi:id="_ZwLNUC42EeqtRvOLLevC2g" name="createObject" classifier="_czOkEC41EeqtRvOLLevC2g">
+          <result xmi:type="uml:OutputPin" xmi:id="_ZwQs4C42EeqtRvOLLevC2g" name="result" outgoing="_ZwogUC42EeqtRvOLLevC2g" type="_czOkEC41EeqtRvOLLevC2g">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ZwQs4S42EeqtRvOLLevC2g" value="1"/>
+          </result>
+        </node>
+        <node xmi:type="uml:CallOperationAction" xmi:id="_ZwgkgC42EeqtRvOLLevC2g" name="callConstructor" operation="_ZwGU0C42EeqtRvOLLevC2g">
+          <result xmi:type="uml:OutputPin" xmi:id="_ZwiZsS42EeqtRvOLLevC2g" name="result" outgoing="_ZwpHYC42EeqtRvOLLevC2g" type="_czOkEC41EeqtRvOLLevC2g">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ZwiZsi42EeqtRvOLLevC2g" value="1"/>
+          </result>
+          <target xmi:type="uml:InputPin" xmi:id="_ZwhyoC42EeqtRvOLLevC2g" name="target" incoming="_ZwogUC42EeqtRvOLLevC2g" type="_czOkEC41EeqtRvOLLevC2g">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ZwiZsC42EeqtRvOLLevC2g" value="1"/>
+          </target>
+        </node>
+      </ownedBehavior>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZwGU0C42EeqtRvOLLevC2g" name="Class2">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZwHi8C42EeqtRvOLLevC2g" name="return" type="_czOkEC41EeqtRvOLLevC2g" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1o4VADBkEeqC4cz9MEeWMA" name="block_init_position" concurrency="concurrent">
+        <method xmi:type="uml:OpaqueBehavior" href="AY_robocon_sysML.uml#_dlXHEDBjEeqC4cz9MEeWMA"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_J-6rEDFXEeq-59CfF2lfZw" name="in">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_TOc8wDFXEeq-59CfF2lfZw" name="out" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JDfTkDBlEeqC4cz9MEeWMA" name="block_position_strategy">
+        <method xmi:type="uml:OpaqueBehavior" href="AY_robocon_sysML.uml#_sn55MDBjEeqC4cz9MEeWMA"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RtMUUDBlEeqC4cz9MEeWMA" name="block_bingo">
+        <method xmi:type="uml:OpaqueBehavior" href="AY_robocon_sysML.uml#__Q5NkDBjEeqC4cz9MEeWMA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_AFTNwC46EeqBUJtjb4T9CQ" name="Satisfy5" client="_czOkEC41EeqtRvOLLevC2g">
+      <supplier xmi:type="uml:Class" href="AY_robocon_sysML.uml#_aW7aYC4tEeqtRvOLLevC2g"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Zt8_wC42EeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zt9m0C42EeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Create xmi:id="_ZwIxEC42EeqtRvOLLevC2g" base_BehavioralFeature="_ZwGU0C42EeqtRvOLLevC2g"/>
+</xmi:XMI>

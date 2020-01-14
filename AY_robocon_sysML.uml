@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Activities="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Activities http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_IrtnwC4rEeqtRvOLLevC2g" name="AY_robocon">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_I0wPAC4rEeqtRvOLLevC2g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_I1OJEC4rEeqtRvOLLevC2g">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Neg9gC4tEeqtRvOLLevC2g" name="ゴールまで走行する"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aW7aYC4tEeqtRvOLLevC2g" name="コースからの離脱時に復帰する"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hrudsC4tEeqtRvOLLevC2g" name="スタートする"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_svno8C4tEeqtRvOLLevC2g" name="DeriveReqt20" client="_aW7aYC4tEeqtRvOLLevC2g" supplier="_Neg9gC4tEeqtRvOLLevC2g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_3qRYoC4tEeqtRvOLLevC2g" name="DeriveReqt20" client="_hrudsC4tEeqtRvOLLevC2g" supplier="_Neg9gC4tEeqtRvOLLevC2g"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_sXSWkC4vEeqtRvOLLevC2g" name="競技者"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9NaJsC4wEeqtRvOLLevC2g" name="ゴールまで走行する"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UkqukC4yEeqtRvOLLevC2g" name="ガレージ駐車を成功させる"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XN1wQC4yEeqtRvOLLevC2g" name="ブロックビンゴを攻略する" subject="_dlXHEDBjEeqC4cz9MEeWMA _sn55MDBjEeqC4cz9MEeWMA __Q5NkDBjEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cZGUMC4yEeqtRvOLLevC2g" name="コースを完走する">
+      <include xmi:type="uml:Include" xmi:id="_kLzbgC4yEeqtRvOLLevC2g" addition="_9NaJsC4wEeqtRvOLLevC2g"/>
+      <include xmi:type="uml:Include" xmi:id="_mCWtcC4yEeqtRvOLLevC2g" addition="_UkqukC4yEeqtRvOLLevC2g"/>
+      <include xmi:type="uml:Include" xmi:id="_pCv8UC4yEeqtRvOLLevC2g" addition="_XN1wQC4yEeqtRvOLLevC2g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hqO2oC4yEeqtRvOLLevC2g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_yI8r0C4yEeqtRvOLLevC2g" name="Refine26" client="_Neg9gC4tEeqtRvOLLevC2g" supplier="_9NaJsC4wEeqtRvOLLevC2g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bl-7kC46EeqBUJtjb4T9CQ" name="コースアウトしそうな場合に減速する"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_eaWgoC46EeqBUJtjb4T9CQ" name="DeriveReqt26" client="_bl-7kC46EeqBUJtjb4T9CQ" supplier="_Neg9gC4tEeqtRvOLLevC2g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1B3gEC46EeqBUJtjb4T9CQ" name="ガレージに駐車する"/>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_lHl8sDBTEeq2kcnvfuTkhw" name="ブロックビンゴを攻略する" visibility="public" node="_88W_IDBjEeqC4cz9MEeWMA _pnvT0DBjEeqC4cz9MEeWMA _WHJpEDBjEeqC4cz9MEeWMA _2XF5IDBUEeq2kcnvfuTkhw _zUOagDBTEeq2kcnvfuTkhw">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_asIZ0DFYEeq-59CfF2lfZw" name="ProxyPort15" aggregation="composite"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_nMsykDBUEeq2kcnvfuTkhw" name="ブロックの配置順路を決める"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_8lpGEDBUEeq2kcnvfuTkhw" name="ブロックを配置する"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_dlXHEDBjEeqC4cz9MEeWMA" name="block_init_position" useCase="_XN1wQC4yEeqtRvOLLevC2g">
+        <specification xmi:type="uml:Operation" href="AY_robocon_UML.uml#_1o4VADBkEeqC4cz9MEeWMA"/>
+        <language>C++</language>
+        <body>int test;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sn55MDBjEeqC4cz9MEeWMA" name="block_position_strategy" useCase="_XN1wQC4yEeqtRvOLLevC2g">
+        <specification xmi:type="uml:Operation" href="AY_robocon_UML.uml#_JDfTkDBlEeqC4cz9MEeWMA"/>
+        <language>C++</language>
+        <body>int test;</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="__Q5NkDBjEeqC4cz9MEeWMA" name="block_bingo" useCase="_XN1wQC4yEeqtRvOLLevC2g">
+        <specification xmi:type="uml:Operation" href="AY_robocon_UML.uml#_RtMUUDBlEeqC4cz9MEeWMA"/>
+        <language>C++</language>
+        <body>int test;</body>
+      </ownedBehavior>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ou8qoDBjEeqC4cz9MEeWMA" target="_WHJpEDBjEeqC4cz9MEeWMA" source="_zUOagDBTEeq2kcnvfuTkhw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_6LCuEDBjEeqC4cz9MEeWMA" target="_pnvT0DBjEeqC4cz9MEeWMA" source="_WHJpEDBjEeqC4cz9MEeWMA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_CrivgDBkEeqC4cz9MEeWMA" target="_88W_IDBjEeqC4cz9MEeWMA" source="_pnvT0DBjEeqC4cz9MEeWMA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_EjM0sDBkEeqC4cz9MEeWMA" target="_2XF5IDBUEeq2kcnvfuTkhw" source="_88W_IDBjEeqC4cz9MEeWMA"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_zUOagDBTEeq2kcnvfuTkhw" name="アクティビティ開始" outgoing="_ou8qoDBjEeqC4cz9MEeWMA"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_2XF5IDBUEeq2kcnvfuTkhw" name="アクティビティ終了" incoming="_EjM0sDBkEeqC4cz9MEeWMA"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_WHJpEDBjEeqC4cz9MEeWMA" name="ブロックの初期位置を知る" visibility="public" incoming="_ou8qoDBjEeqC4cz9MEeWMA" outgoing="_6LCuEDBjEeqC4cz9MEeWMA" onPort="_6NH04DBnEeqC4cz9MEeWMA" behavior="_dlXHEDBjEeqC4cz9MEeWMA"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_pnvT0DBjEeqC4cz9MEeWMA" name="ブロックの配置戦略を決定する" visibility="private" incoming="_6LCuEDBjEeqC4cz9MEeWMA" outgoing="_CrivgDBkEeqC4cz9MEeWMA" onPort="_6NH04DBnEeqC4cz9MEeWMA" behavior="_sn55MDBjEeqC4cz9MEeWMA"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_88W_IDBjEeqC4cz9MEeWMA" name="ブロックの配置を行う" visibility="protected" incoming="_CrivgDBkEeqC4cz9MEeWMA" outgoing="_EjM0sDBkEeqC4cz9MEeWMA" behavior="__Q5NkDBjEeqC4cz9MEeWMA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_F7aFIDBhEeqC4cz9MEeWMA" name="ブロックの初期配置を知る"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_txx9QDBhEeqC4cz9MEeWMA" name="ブロックビンゴを攻略する"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ycrmIDBhEeqC4cz9MEeWMA" name="Refine31" client="_txx9QDBhEeqC4cz9MEeWMA" supplier="_XN1wQC4yEeqtRvOLLevC2g"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_z6HNcDBhEeqC4cz9MEeWMA" name="DeriveReqt32" client="_F7aFIDBhEeqC4cz9MEeWMA" supplier="_txx9QDBhEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5XZ8kDBhEeqC4cz9MEeWMA" name="ブロックの配置戦略を決める"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_C3ADgDBiEeqC4cz9MEeWMA" name="DeriveReqt34" client="_5XZ8kDBhEeqC4cz9MEeWMA" supplier="_txx9QDBhEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MP7hwDBiEeqC4cz9MEeWMA" name="ブロックの配置を実行する"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_YKYhkDBiEeqC4cz9MEeWMA" name="DeriveReqt36" client="_MP7hwDBiEeqC4cz9MEeWMA" supplier="_txx9QDBhEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_L6NegDBkEeqC4cz9MEeWMA" name="Satisfy37" client="_dlXHEDBjEeqC4cz9MEeWMA" supplier="_F7aFIDBhEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_QnHSgDBkEeqC4cz9MEeWMA" name="Satisfy38" client="_sn55MDBjEeqC4cz9MEeWMA" supplier="_5XZ8kDBhEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_RNdg0DBkEeqC4cz9MEeWMA" name="Satisfy39" client="__Q5NkDBjEeqC4cz9MEeWMA" supplier="_MP7hwDBiEeqC4cz9MEeWMA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lEmjADBnEeqC4cz9MEeWMA" name="Block40">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_6NH04DBnEeqC4cz9MEeWMA" name="カラーセンサー" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s7xeIDBoEeqC4cz9MEeWMA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3nlZUDFUEeq-59CfF2lfZw" name="ブロックビンゴを攻略する" visibility="public" type="_lHl8sDBTEeq2kcnvfuTkhw" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_-srzwDFUEeq-59CfF2lfZw" name="Connector3">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_-tE1UDFUEeq-59CfF2lfZw" role="_6NH04DBnEeqC4cz9MEeWMA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_-tGDcDFUEeq-59CfF2lfZw" partWithPort="_3nlZUDFUEeq-59CfF2lfZw" role="_asIZ0DFYEeq-59CfF2lfZw"/>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uMgisDBnEeqC4cz9MEeWMA" name="センサ処理"/>
+    <packagedElement xmi:type="uml:Signal" xmi:id="_rod78DFUEeq-59CfF2lfZw" name="Signal41"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iut4cC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IvNAoC4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0ESgC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0E5kC4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0qvcC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0qvcS4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0rWgC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0rWgS4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0rWgi4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0r9kC4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0r9kS4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0r9ki4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0skoC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0skoS4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0tLsC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0tLsS4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0tywC4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0tywS4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_I0uZ0C4rEeqtRvOLLevC2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I0uZ0S4rEeqtRvOLLevC2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_Nekn4C4tEeqtRvOLLevC2g" base_NamedElement="_Neg9gC4tEeqtRvOLLevC2g" id="100" text="（機能要求）" base_Class="_Neg9gC4tEeqtRvOLLevC2g"/>
+  <Requirements:Requirement xmi:id="_aW_r0C4tEeqtRvOLLevC2g" base_NamedElement="_aW7aYC4tEeqtRvOLLevC2g" id="102" base_Class="_aW7aYC4tEeqtRvOLLevC2g"/>
+  <Requirements:Requirement xmi:id="_hrxhAC4tEeqtRvOLLevC2g" base_NamedElement="_hrudsC4tEeqtRvOLLevC2g" id="103" base_Class="_hrudsC4tEeqtRvOLLevC2g"/>
+  <Requirements:DeriveReqt xmi:id="_svqsQC4tEeqtRvOLLevC2g" base_DirectedRelationship="_svno8C4tEeqtRvOLLevC2g" base_Abstraction="_svno8C4tEeqtRvOLLevC2g"/>
+  <Requirements:DeriveReqt xmi:id="_3qYGUC4tEeqtRvOLLevC2g" base_DirectedRelationship="_3qRYoC4tEeqtRvOLLevC2g" base_Abstraction="_3qRYoC4tEeqtRvOLLevC2g"/>
+  <Requirements:Refine xmi:id="_yJAWMC4yEeqtRvOLLevC2g" base_DirectedRelationship="_yI8r0C4yEeqtRvOLLevC2g" base_Abstraction="_yI8r0C4yEeqtRvOLLevC2g"/>
+  <Requirements:Requirement xmi:id="_bmGQUC46EeqBUJtjb4T9CQ" base_NamedElement="_bl-7kC46EeqBUJtjb4T9CQ" base_Class="_bl-7kC46EeqBUJtjb4T9CQ"/>
+  <Requirements:DeriveReqt xmi:id="_eahfwC46EeqBUJtjb4T9CQ" base_DirectedRelationship="_eaWgoC46EeqBUJtjb4T9CQ" base_Abstraction="_eaWgoC46EeqBUJtjb4T9CQ"/>
+  <Requirements:Requirement xmi:id="_1B9msC46EeqBUJtjb4T9CQ" base_NamedElement="_1B3gEC46EeqBUJtjb4T9CQ" text="（機能要求）" base_Class="_1B3gEC46EeqBUJtjb4T9CQ"/>
+  <Requirements:Requirement xmi:id="_F8EzgDBhEeqC4cz9MEeWMA" base_NamedElement="_F7aFIDBhEeqC4cz9MEeWMA" text="（機能要求）" base_Class="_F7aFIDBhEeqC4cz9MEeWMA"/>
+  <Requirements:Requirement xmi:id="_tx5SADBhEeqC4cz9MEeWMA" base_NamedElement="_txx9QDBhEeqC4cz9MEeWMA" text="（機能要求）" base_Class="_txx9QDBhEeqC4cz9MEeWMA"/>
+  <Requirements:Refine xmi:id="_yc0wEDBhEeqC4cz9MEeWMA" base_DirectedRelationship="_ycrmIDBhEeqC4cz9MEeWMA" base_Abstraction="_ycrmIDBhEeqC4cz9MEeWMA"/>
+  <Requirements:DeriveReqt xmi:id="_z6Q-cDBhEeqC4cz9MEeWMA" base_DirectedRelationship="_z6HNcDBhEeqC4cz9MEeWMA" base_Abstraction="_z6HNcDBhEeqC4cz9MEeWMA"/>
+  <Requirements:Requirement xmi:id="_5Xe1EDBhEeqC4cz9MEeWMA" base_NamedElement="_5XZ8kDBhEeqC4cz9MEeWMA" text="（機能要求）" base_Class="_5XZ8kDBhEeqC4cz9MEeWMA"/>
+  <Requirements:DeriveReqt xmi:id="_C3Dt4DBiEeqC4cz9MEeWMA" base_DirectedRelationship="_C3ADgDBiEeqC4cz9MEeWMA" base_Abstraction="_C3ADgDBiEeqC4cz9MEeWMA"/>
+  <Requirements:Requirement xmi:id="_MP_MIDBiEeqC4cz9MEeWMA" base_NamedElement="_MP7hwDBiEeqC4cz9MEeWMA" text="（機能要求）" base_Class="_MP7hwDBiEeqC4cz9MEeWMA"/>
+  <Requirements:DeriveReqt xmi:id="_YKhrgDBiEeqC4cz9MEeWMA" base_DirectedRelationship="_YKYhkDBiEeqC4cz9MEeWMA" base_Abstraction="_YKYhkDBiEeqC4cz9MEeWMA"/>
+  <Requirements:Satisfy xmi:id="_L6YdoDBkEeqC4cz9MEeWMA" base_DirectedRelationship="_L6NegDBkEeqC4cz9MEeWMA" base_Abstraction="_L6NegDBkEeqC4cz9MEeWMA"/>
+  <Requirements:Satisfy xmi:id="_QnP1YDBkEeqC4cz9MEeWMA" base_DirectedRelationship="_QnHSgDBkEeqC4cz9MEeWMA" base_Abstraction="_QnHSgDBkEeqC4cz9MEeWMA"/>
+  <Requirements:Satisfy xmi:id="_RNmDsDBkEeqC4cz9MEeWMA" base_DirectedRelationship="_RNdg0DBkEeqC4cz9MEeWMA" base_Abstraction="_RNdg0DBkEeqC4cz9MEeWMA"/>
+  <Blocks:Block xmi:id="_lEt3wDBnEeqC4cz9MEeWMA" base_Class="_lEmjADBnEeqC4cz9MEeWMA"/>
+  <Blocks:Block xmi:id="_uMk0IDBnEeqC4cz9MEeWMA" base_Class="_uMgisDBnEeqC4cz9MEeWMA"/>
+  <Activities:Continuous xmi:id="_Yosp0DFVEeq-59CfF2lfZw"/>
+  <PortsAndFlows:ProxyPort xmi:id="_asPukDFYEeq-59CfF2lfZw" base_Port="_asIZ0DFYEeq-59CfF2lfZw"/>
+  <Blocks:NestedConnectorEnd xmi:id="_be1pIDFYEeq-59CfF2lfZw" base_Element="_-tGDcDFUEeq-59CfF2lfZw" propertyPath="_3nlZUDFUEeq-59CfF2lfZw" base_ConnectorEnd="_-tGDcDFUEeq-59CfF2lfZw"/>
+</xmi:XMI>

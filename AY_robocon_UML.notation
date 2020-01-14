@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration">
+  <notation:Diagram xmi:id="_lEaisC4rEeqtRvOLLevC2g" type="PapyrusUMLClassDiagram" name="クラス図" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_czRAUC41EeqtRvOLLevC2g" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_czRAUi41EeqtRvOLLevC2g" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_czRnYC41EeqtRvOLLevC2g" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_czRnYS41EeqtRvOLLevC2g" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_czRnYi41EeqtRvOLLevC2g" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_czRnYy41EeqtRvOLLevC2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_czRnZC41EeqtRvOLLevC2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_czRnZS41EeqtRvOLLevC2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_czRnZi41EeqtRvOLLevC2g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_czRnZy41EeqtRvOLLevC2g" type="Class_OperationCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_1o_CsDBkEeqC4cz9MEeWMA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="AY_robocon_UML.uml#_1o4VADBkEeqC4cz9MEeWMA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1o_CsTBkEeqC4cz9MEeWMA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JDjlADBlEeqC4cz9MEeWMA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="AY_robocon_UML.uml#_JDfTkDBlEeqC4cz9MEeWMA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_JDjlATBlEeqC4cz9MEeWMA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RtRM0DBlEeqC4cz9MEeWMA" type="Operation_ClassOperationLabel">
+          <element xmi:type="uml:Operation" href="AY_robocon_UML.uml#_RtMUUDBlEeqC4cz9MEeWMA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RtRM0TBlEeqC4cz9MEeWMA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_czRnaC41EeqtRvOLLevC2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_czRnaS41EeqtRvOLLevC2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_czRnai41EeqtRvOLLevC2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_czRnay41EeqtRvOLLevC2g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_czRnbC41EeqtRvOLLevC2g" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_czRnbS41EeqtRvOLLevC2g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_czRnbi41EeqtRvOLLevC2g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_czRnby41EeqtRvOLLevC2g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_czRncC41EeqtRvOLLevC2g"/>
+      </children>
+      <element xmi:type="uml:Class" href="AY_robocon_UML.uml#_czOkEC41EeqtRvOLLevC2g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_czRAUS41EeqtRvOLLevC2g" x="320" y="160"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_lEaisS4rEeqtRvOLLevC2g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_lEaisi4rEeqtRvOLLevC2g"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lEaisy4rEeqtRvOLLevC2g" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="AY_robocon_UML.uml#_OaNboC4rEeqtRvOLLevC2g"/>
+    </styles>
+    <element xmi:type="uml:Model" href="AY_robocon_UML.uml#_OaNboC4rEeqtRvOLLevC2g"/>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_fhwKYC42EeqtRvOLLevC2g" name="GenericTable0" currentRowAxisProvider="_fhwKYi42EeqtRvOLLevC2g" currentColumnAxisProvider="_fhwKYS42EeqtRvOLLevC2g" tableKindId="org.eclipse.papyrus.uml.table.generic">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fhxYgC42EeqtRvOLLevC2g" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fhxYgS42EeqtRvOLLevC2g" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="AY_robocon_UML.uml#_OaNboC4rEeqtRvOLLevC2g"/>
+    <owner xmi:type="uml:Model" href="AY_robocon_UML.uml#_OaNboC4rEeqtRvOLLevC2g"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_fhwKYS42EeqtRvOLLevC2g" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider"/>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_fhwKYi42EeqtRvOLLevC2g" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider"/>
+    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_jj4jEC42EeqtRvOLLevC2g" indexStyle="NUMERIC"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_CnMGQC47EeqBUJtjb4T9CQ" name="TableOfViews0" currentRowAxisProvider="_CnMGRi47EeqBUJtjb4T9CQ" currentColumnAxisProvider="_CnMGQS47EeqBUJtjb4T9CQ" tableKindId="org.eclipse.papyrus.uml.table.view">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CnOigC47EeqBUJtjb4T9CQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CnOigS47EeqBUJtjb4T9CQ" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Model" href="AY_robocon_UML.uml#_OaNboC4rEeqtRvOLLevC2g"/>
+    <owner xmi:type="uml:Model" href="AY_robocon_UML.uml#_OaNboC4rEeqtRvOLLevC2g"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#PapyrusViewsTable_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_CnMGQS47EeqBUJtjb4T9CQ" description="Provides the features of the views" name="Papyrus Views feature provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CnMGQi47EeqBUJtjb4T9CQ" element="nattable_editor_pages:/name">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#_YwqztTzQEei_1txcmoHe_A"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CnMGQy47EeqBUJtjb4T9CQ" element="nattable_editor_pages:/context">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#_YwqztTzQEei_1txcmoHe_A"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CnMGRC47EeqBUJtjb4T9CQ" element="nattable_editor_pages:/isOpen">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#_YwqztTzQEei_1txcmoHe_A"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CnMGRS47EeqBUJtjb4T9CQ" element="nattable_editor_pages:/type">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.infra.nattable.views.config/resources/viewpage.nattableconfiguration#_YwqztTzQEei_1txcmoHe_A"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_CnMGRi47EeqBUJtjb4T9CQ"/>
+  </nattable:Table>
+</xmi:XMI>
